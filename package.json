@@ -1,0 +1,18 @@
+{
+  "name": "ia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vulcan build",
+    "dev": "vulcan dev -p 3002",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "edge-functions": "^2.0.0-stage.2",
+    "openai": "^4.14.0",
+    "openai-edge": "^1.2.2"
+  }
+}
